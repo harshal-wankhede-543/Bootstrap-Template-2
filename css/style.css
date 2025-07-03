@@ -1,0 +1,317 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.hero-1 img{
+    width: 30px;
+    height: 30px;
+}
+.photosec h2{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.studio h2{
+    font-size: 50px;
+    margin-top: 100%;
+    margin-bottom: 20%;
+}
+.studio button{
+    margin-bottom: 40%;
+}
+.slider-1{
+    background-image: url(../images/slider-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+.slider-1 button{
+    text-align: center;
+    margin-left: 90%;
+}
+.about{
+    display: flex;
+}
+.about img{
+    width: 1200px;
+}
+.about-1{
+    padding: 100%;
+    background-color: #c66000;
+}
+.about-1 h2{
+    margin-top: 170px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+}
+.about-1 p{
+    text-align: center;
+    font-size: 22px;
+    color: aliceblue;
+}
+.about-1 button{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+
+}
+.portfolio{
+    background-color: rgb(224, 218, 211);
+}
+.portfolio-button button{ 
+    font-size: 30px;
+    margin-left: 50%;
+    margin-bottom: 70px;
+}
+.portfolio-top{
+    background-color: rgb(224, 218, 211);
+}
+.team{
+    background-color: #c66000;
+    padding-top: 200px;
+}
+.team h2{
+    margin-top: 250px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.team p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.team-images img{
+    width: 80%;  
+    margin: 30px;
+    border-radius: 15px;
+}
+.img-3 img{
+    width: 45%;
+    height: 450px;
+    margin-left: 25%;
+}
+.footer-1{
+    background-color: #c66000;   
+}
+.footer-1-header h2{
+    margin: 10px 0px 130px 230px;
+    font-size: 45px;
+    color: white;
+    text-decoration: underline;
+}
+.icons{
+    margin: 0px 0px 100px 230px;
+    font-size: 25px;
+}
+.icons-desc p{
+    padding: 0px 0px 0px 10px;
+    color: white;
+}
+.footer-2{
+    background-color: #673201;
+}
+.footer-2-space{
+    justify-content: space-between;
+}
+.footer-2-nav nav ul li{
+    list-style-type: none;
+    margin: 0px 0px 0px 10px; 
+    font-size: 20px;
+    color: white;
+} 
+.footer-2-nav nav{
+    margin-right: 20px;
+}
+.footer-2-para p{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.frame iframe{
+    height: 450px;
+    padding-top: 50%    ;
+}
+.footer-2-space{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe{
+    display: flex;
+}
+.frame{
+    width: 70%;
+}
+.creative{
+    display: flex;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .slider-1{
+        background-image: url(../images/slider-img.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+    }
+    .slider-1 button{
+        margin-left: 70%;
+    }
+    .subscribe{
+        display: block;
+    }
+
+    .photosec h2{
+        font-size: 30px;
+    }
+    .studio h2{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 20%;
+    }
+    .studio button{
+        margin-bottom: 40%;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .about img{
+        height: 400px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .about-1 h2{
+        text-align: center;
+        font-size: 30px;
+        color: aliceblue;
+        margin-top: 10px;
+    }
+    .about-1 p{
+        text-align: center;
+        font-size: 17px;
+        color: aliceblue;
+    }
+    .about-1 button{
+        text-decoration: none;
+        font-size: 25px;
+        margin-left: 40%;
+    
+    }
+    .div1{
+        display: flex;
+    }
+    .mainimg img{
+        width: 100%;
+        height: 80vh;
+    }
+    .about{
+        display: block;
+    }
+    .team{
+        background-color: #c66000;
+        padding-top: 0px;
+    }
+    .team h2{
+        margin-top: 150px;
+        color: white;
+        text-align: center;
+        font-size: 35px;
+    }
+    .team p{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .team-images img{
+        width: 80%;  
+        margin: 30px;
+        border-radius: 15px;
+    }
+    .img-3 img{
+        width: 40%;
+        height: 200px;
+        margin-left: 27%;
+    }
+    .frame{
+        width: 70%;
+    }
+    .footer-2-space{
+        display: block;
+    }
+    .footer-2-space{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-2-nav ul li{
+        text-align: center;
+    }
+    .creative{
+        display: flex;
+    }
+    .icons{
+        margin: 0px 0px 0px 30px;
+        font-size: 25px;
+    }
+    .footer-1-header h2{
+        margin-left: 20%;
+        font-size: 45px;
+        color: white;
+        text-decoration: underline;
+    }
+    .icons-desc p{
+        padding: 0px 0px 0px 0px;
+        color: white;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 320px){
+    .slider-1{
+        display: none;
+    }
+    .subscribe{
+        display: block;
+    }
+    .slider-1 a{
+        
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        margin-left: 200px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .about{
+        display: block;
+    }
+    .about-img img{
+        width: 100%;
+    }
+    .icons{
+        display: none;
+    }
+    .footer-2-nav{
+        display: none;
+    }
+    .footer-1-header{
+        display: none;
+    }
+    .creative{
+        display: block;
+    }
+    .img-3 img{
+        width: 80%;
+        height: 200px;
+        margin-left: 10%;
+    }
+    .about-1 button{
+        text-decoration: none;
+        font-size: 25px;
+        margin-left: 25%;
+    
+    }
+    .portfolio-button button{
+        margin-left: 25%;
+    }
+    
+}
